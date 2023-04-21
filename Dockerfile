@@ -1,1 +1,2 @@
-FROM openjdk:19
+FROM openjdk:19-jdk
+COPY . ./app
