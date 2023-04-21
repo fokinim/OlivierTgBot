@@ -1,2 +1,1 @@
-FROM openjdk:19-jdk
-COPY . ./app
+FROM maven:4.0.0-jdk-19
