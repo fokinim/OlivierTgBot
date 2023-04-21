@@ -1,1 +1,1 @@
-
+FROM openjdk-19
