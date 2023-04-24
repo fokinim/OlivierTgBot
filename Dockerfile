@@ -1,2 +1,2 @@
 FROM maven:3.9.1-amazoncorretto-11
-EXPOSE 80
+EXPOSE 3000
