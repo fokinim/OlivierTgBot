@@ -18,16 +18,7 @@
         <defaultGoal>install</defaultGoal>
 
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <verbose>true</verbose>
-                    <fork>true</fork>
-                    <compilerVersion>1.5</compilerVersion>
-                </configuration>
-            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-install-plugin</artifactId>
@@ -62,7 +53,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
-            <version>1.5.6</version>
+            <version>2.0.5</version>
         </dependency>
     </dependencies>
 
