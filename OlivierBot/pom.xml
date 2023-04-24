@@ -15,7 +15,7 @@
     </properties>
 
     <build>
-        <defaultGoal>compile</defaultGoal>
+        <defaultGoal>install</defaultGoal>
 
         <plugins>
             <plugin>
@@ -27,6 +27,11 @@
                     <fork>true</fork>
                     <compilerVersion>1.5</compilerVersion>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>2.4</version>
             </plugin>
         </plugins>
     </build>
