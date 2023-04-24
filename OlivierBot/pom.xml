@@ -15,14 +15,27 @@
     </properties>
 
     <build>
-        <defaultGoal>install</defaultGoal>
+        <defaultGoal>compile</defaultGoal>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <verbose>true</verbose>
+                    <fork>true</fork>
+                    <compilerVersion>1.5</compilerVersion>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>RELEASE</version>
+            <version>1.18.26</version>
             <scope>compile</scope>
         </dependency>
 
