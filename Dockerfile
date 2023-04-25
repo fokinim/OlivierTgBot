@@ -1,2 +1,2 @@
 FROM openjdk:19-jdk
-EXPOSE 8080
+EXPOSE 6379
