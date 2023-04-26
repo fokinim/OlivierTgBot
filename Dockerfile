@@ -1,2 +1,2 @@
 FROM openjdk:19-jdk
-EXPOSE 443
+EXPOSE 80
