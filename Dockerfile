@@ -1,2 +1,2 @@
-FROM openjdk:19-jdk
+FROM ubuntu-latest
 EXPOSE 8080
