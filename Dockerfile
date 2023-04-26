@@ -1,2 +1,2 @@
-FROM frolvlad/alpine-oraclejdk8
+FROM anapsix/alpine-java
 EXPOSE 8080
