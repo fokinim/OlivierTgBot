@@ -1,2 +1,2 @@
-FROM openjdk-19
+FROM frolvlad/alpine-oraclejdk8
 EXPOSE 8080
