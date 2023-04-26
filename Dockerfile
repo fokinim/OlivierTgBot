@@ -1,2 +1,2 @@
-FROM ubuntu-latest
+FROM anapsix/alpine-java
 EXPOSE 8080
