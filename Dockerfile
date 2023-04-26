@@ -1,2 +1,2 @@
-FROM maven:3.9.1-amazoncorretto-11
-EXPOSE 80
+FROM openjdk:19-jdk
+EXPOSE 443
